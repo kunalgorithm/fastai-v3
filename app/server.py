@@ -9,10 +9,10 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://drive.google.com/uc?export=download&id=11KRx5eN-MOu5XFMI9RhKRSGAUq4wru0A'
-export_file_name = 'emotrecog.pkl'
+export_file_url = 'hhttps://drive.google.com/uc?export=download&id=1wTWfjxRLnjF1TB31_CyRu2ubfm6dZYI8'
+export_file_name = 'export.pkl'
 
-classes = ['Anger','Disgust','Fear','Happy','Sad','Surprise','Neutral']
+classes = ['sequoia','yosemite','yellowstone']
 path = Path(__file__).parent
 
 app = Starlette()
